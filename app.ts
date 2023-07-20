@@ -1,4 +1,5 @@
 import { CompanyAccount } from './class/CompanyAccount'
+import { EspecialClient } from './class/EspecialClient'
 import { PeopleAccount } from './class/PeopleAccount'
 
 
@@ -13,3 +14,6 @@ companyAccount.withdraw(200)
 companyAccount.withdraw(1400)
 companyAccount.getLoan(300)
 companyAccount.withdraw(1400)
+const especialClient : EspecialClient = new EspecialClient('Luisa',30)
+console.log(especialClient)
+especialClient.deposit(540)
