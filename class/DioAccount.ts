@@ -10,10 +10,12 @@ export abstract class DioAccount {
   }
 
   getName = (): string => {
+    console.log(this.name)
     return this.name
   }
 
   getAccountnumber = (): number => {
+    console.log(this.accountNumber)
     return this.accountNumber
   }
 

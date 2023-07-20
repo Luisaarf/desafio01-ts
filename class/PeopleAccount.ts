@@ -9,6 +9,7 @@ export class PeopleAccount extends DioAccount {
   }
 
   getDocId = () :number => {
+    console.log(this.doc_id)
     return this.doc_id
   }
 }
